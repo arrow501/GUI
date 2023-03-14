@@ -13,6 +13,6 @@ class Skrzypek extends Muzyk {
 
     @Override
     public double stawka() {
-        return 350.0;
+        return 200.0;
     }
 }
