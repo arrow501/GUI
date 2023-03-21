@@ -1,0 +1,79 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1678901627,
+        "narHash": "sha256-U02riOqrKKzwjsxc/400XnElV+UtPUQWpANPlyazjH0=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "93a2b84fc4b70d9e089d029deacc3583435c2ed6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1656928814,
+        "narHash": "sha256-RIFfgBuKz6Hp89yRr7+NR5tzIAbn52h8vT6vXkYjZoM=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "7e2a3b3dfd9af950a856d66b0a7d01e3c18aa249",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "language-servers": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1673891911,
+        "narHash": "sha256-ayBHJQpJItWrUsTy/uFDFRkDuaGTkGn4Y7Xka35rFY0=",
+        "ref": "refs/heads/master",
+        "rev": "be9c9b24c0fce29baaaf6b0f5cb4dd3cacad83ad",
+        "revCount": 9,
+        "type": "git",
+        "url": "https://git.sr.ht/~bwolf/language-servers.nix"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.sr.ht/~bwolf/language-servers.nix"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1679398698,
+        "narHash": "sha256-lpXa5avWXJOy7lenYNHFj3B36fojpEOc4kzaRuudbco=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "c60dcfee84d5239387c60cfb8e260bd193e47e8d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "language-servers": "language-servers",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

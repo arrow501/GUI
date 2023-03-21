@@ -1,3 +1,5 @@
+import Skrzypek;
+
 import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
