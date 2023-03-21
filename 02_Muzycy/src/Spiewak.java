@@ -1,4 +1,6 @@
 import java.util.Arrays;
+import java.util.Comparator;
+
 
 public abstract class Spiewak {
     private String imie;
@@ -18,15 +20,14 @@ public abstract class Spiewak {
     }
     static Spiewak najglosniej(Spiewak[] spiewacy){
         return Arrays.stream(spiewacy)
-            .max((Spiewak s) -> glosnosc(s.spiewaj()))
+            .max(Comparator.comparing(spiewak -> glosnosc(spiewak)))
             .get();
     }
-    static int glosnosc(String spiew){
-
+    static int glosnosc(Spiewak spiewak){
         char max_letter = 0;
         char max_number = 0;
 
-        for (char c: spiew.toCharArray()) {
+        for (char c: spiewak.spiewaj().toCharArray()) {
             if(c >= 'a' && c <= 'z' && max_letter < c){
                 max_letter = c;
             } else if ( c >= '0' && c <= '9' && max_number < c){
