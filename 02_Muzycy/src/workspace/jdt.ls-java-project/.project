@@ -18,17 +18,17 @@
 		<link>
 			<name>src/Test.java</name>
 			<type>1</type>
-			<location>/home/bunny/GitHub/GUI/02_Muzycy/src/Test.java</location>
+			<location>c:/home/bunny/GitHub/GUI/02_Muzycy/src/Test.java</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1679401607295</id>
+			<id>1679933072896</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>
