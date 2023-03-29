@@ -870,3 +870,2204 @@ BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
 
 !ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-21 13:04:04.972
 !MESSAGE >> shutdown
+!SESSION 2023-03-28 16:36:15.813 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.5
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-03-28 16:36:16.796
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.221
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.404
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.446
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.448
+!MESSAGE Initializing Java Language Server 1.12.0.202206011637
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.461
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.461
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.refreshDiagnostics, java.project.import, java.navigate.openTypeHierarchy, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveStackTraceLocation, java.project.getAll, java.project.isTestFile, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.stringFormatting, java.project.getSettings, java.project.updateSourceAttachment, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.466
+!MESSAGE Starting org.eclipse.m2e.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.466
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.499
+!MESSAGE ProjectRegistryRefreshJob finished 32ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.500
+!MESSAGE Starting org.eclipse.buildship.core
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.527
+!MESSAGE Started org.eclipse.buildship.core 28ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.549
+!MESSAGE LoadingGradleVersionJob finished 21ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:17.576
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:18.639
+!MESSAGE Importing Eclipse project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:18.685
+!MESSAGE Workspace initialized in 1134ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:18.735
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:18.737
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:19.371
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:19.445
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:19.445
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:19.970
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:20.742
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:20.742
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:36:20.745
+!MESSAGE Validated 1. Took 324 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:58.460
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:58.534
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:59.009
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:59.009
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:59.083
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:59.083
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:38:59.084
+!MESSAGE Validated 2. Took 149 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:13.718
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:13.725
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:13.777
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.293
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.293
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.355
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.355
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.357
+!MESSAGE Validated 2. Took 178 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.446
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.522
+!MESSAGE Reconciled 1. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.637
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:14.708
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.039
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.234
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.235
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.324
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.325
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.325
+!MESSAGE Validated 2. Took 166 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.487
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.501
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.503
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:15.570
+!MESSAGE Reconciled 1. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:16.068
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:16.068
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:16.122
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:16.122
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:16.125
+!MESSAGE Validated 2. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:17.307
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:17.371
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:17.465
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:17.467
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:17.531
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.027
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.027
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.071
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.072
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.073
+!MESSAGE Validated 2. Took 90 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.437
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.501
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.942
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.942
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.985
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.986
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:18.987
+!MESSAGE Validated 2. Took 83 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:22.251
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:22.289
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.378
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.441
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.779
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.806
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.878
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:23.895
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.279
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.306
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.346
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.389
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.389
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.425
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.425
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.426
+!MESSAGE Validated 2. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.490
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.747
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.766
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.975
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:24.976
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:25.016
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:25.016
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:25.017
+!MESSAGE Validated 2. Took 76 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.307
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.309
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.369
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.734
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:27.976
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.038
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.196
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.258
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.598
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.741
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.750
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.761
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.761
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.796
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.796
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.797
+!MESSAGE Validated 2. Took 88 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.798
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:28.859
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.028
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.148
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.203
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.261
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.593
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.655
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.736
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.797
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.932
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:29.944
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.378
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.378
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.421
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.429
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.431
+!MESSAGE Duplicate modifier for the method najglosniej in type Spiewak is of type DuplicateModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.432
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.432
+!MESSAGE Validated 2. Took 87 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.434
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.441
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.445
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.876
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.876
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.909
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.911
+!MESSAGE Duplicate modifier for the method najglosniej in type Spiewak is of type DuplicateModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.911
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:30.911
+!MESSAGE Validated 2. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:31.212
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:31.276
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:31.644
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:31.645
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:31.696
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.174
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.175
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.204
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.205
+!MESSAGE Duplicate modifier for the method najglosniej in type Spiewak is of type DuplicateModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.205
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:32.206
+!MESSAGE Validated 2. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.268
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.330
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.802
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.802
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.810
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.834
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.834
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.837
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.839
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:36.902
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.330
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.330
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.356
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.357
+!MESSAGE Duplicate modifier for the method najglosniej in type Spiewak is of type DuplicateModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.358
+!MESSAGE Illegal modifier for the method najglosniej; only public, protected, private, abstract, static, final, synchronized, native & strictfp are permitted is of type IllegalModifierForMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.358
+!MESSAGE 3 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.359
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.947
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.949
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:37.963
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.442
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.442
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.473
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.473
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.494
+!MESSAGE Validated 2. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.702
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.704
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.710
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:38.766
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:39.247
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:39.247
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:39.272
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:39.272
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:39.272
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.008
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.010
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.020
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.071
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.552
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.553
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.584
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.585
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.585
+!MESSAGE Validated 2. Took 64 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.882
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:40.895
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.032
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.062
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.094
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.465
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.469
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.518
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.518
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.551
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.552
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:41.554
+!MESSAGE Validated 2. Took 59 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:42.742
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:42.804
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.010
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.023
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.451
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.451
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.482
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.482
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.483
+!MESSAGE Validated 2. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.578
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.580
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.640
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.980
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.987
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:43.990
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.046
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.273
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.336
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.529
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.590
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.677
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.678
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.689
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.850
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:44.912
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.063
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.125
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.464
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.468
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.545
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.577
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.672
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.685
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.798
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.861
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:45.947
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.008
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.125
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.515
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.524
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.599
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.599
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.628
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.628
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.629
+!MESSAGE Validated 2. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.941
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:46.942
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.003
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.484
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.484
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.515
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.515
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:47.516
+!MESSAGE Validated 2. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:49.711
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:49.715
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:49.941
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.002
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.427
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.427
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.449
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.449
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:50.450
+!MESSAGE Validated 2. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:53.184
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:53.189
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:53.963
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:53.976
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:54.443
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:54.443
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:54.461
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:54.461
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:54.461
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.396
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.457
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.797
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.802
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.931
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.932
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.959
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.959
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:55.960
+!MESSAGE Validated 2. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.126
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.187
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.655
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.655
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.672
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.673
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.673
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.768
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:58.829
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:59.295
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:59.295
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:59.316
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:59.317
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:41:59.317
+!MESSAGE Validated 2. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:03.962
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.026
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.505
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.506
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.556
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.556
+!MESSAGE 4 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:04.557
+!MESSAGE Validated 2. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:06.971
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.034
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.504
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.504
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.531
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.532
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:07.533
+!MESSAGE Validated 2. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:14.871
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:14.872
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:14.933
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:15.353
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:15.353
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:15.375
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:15.375
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:15.375
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.403
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.466
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.935
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.935
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.954
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.954
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:16.954
+!MESSAGE Validated 2. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.423
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.486
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.956
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.956
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.981
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.981
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:17.982
+!MESSAGE Validated 2. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.154
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.156
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.166
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.328
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.329
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.389
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.809
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.809
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.831
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.831
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:18.832
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.081
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.082
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.137
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.610
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.610
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.635
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.636
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:19.636
+!MESSAGE Validated 2. Took 49 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.227
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.288
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.754
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.754
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.773
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.774
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.774
+!MESSAGE Validated 2. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:22.945
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.006
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.478
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.478
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.508
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.508
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:23.508
+!MESSAGE Validated 2. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.115
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.116
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.176
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.648
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.648
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.672
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.673
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:24.673
+!MESSAGE Validated 2. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:25.218
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:25.280
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:25.555
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:25.567
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:26.034
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:26.034
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:26.050
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:26.050
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:26.050
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:31.428
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:31.774
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:31.835
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.077
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.139
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.353
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.415
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.415
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.428
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.509
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.571
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.824
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:32.885
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.073
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.074
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.134
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.230
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.232
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.292
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.584
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.645
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.702
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:33.763
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.103
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.114
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.164
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.215
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.681
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.681
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.697
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.697
+!MESSAGE 3 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:34.698
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:35.671
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:35.732
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.201
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.202
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.222
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.222
+!MESSAGE 5 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.223
+!MESSAGE Validated 2. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.266
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.267
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.282
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.327
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.747
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.780
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.860
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:36.921
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.040
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.102
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.539
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.554
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.816
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.877
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.934
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:37.995
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.462
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.462
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.486
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.486
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.487
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.564
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.575
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.656
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:38.717
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.057
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.063
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.183
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.183
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.199
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.199
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.200
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.766
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.767
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:39.827
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.203
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.204
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.229
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.604
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.610
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.697
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.698
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.722
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.722
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:40.722
+!MESSAGE Validated 2. Took 41 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.076
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.137
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.234
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.296
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.636
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.641
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.761
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.761
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.777
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.777
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:41.777
+!MESSAGE Validated 2. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:43.233
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:43.244
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:43.694
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:43.704
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.174
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.184
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.210
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.211
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.211
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.211
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.298
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.359
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.551
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:44.603
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.018
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.018
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.038
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.038
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.038
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:45.038
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.232
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.293
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.714
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.714
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.739
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.739
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.739
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:48.739
+!MESSAGE Validated 2. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.270
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.332
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.386
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.398
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.513
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.565
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.901
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:49.962
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.228
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.229
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.289
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.394
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.395
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.454
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.551
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.552
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.613
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.891
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:50.952
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.157
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.423
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.424
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.484
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.588
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.589
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.650
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.738
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.739
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:51.764
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.099
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.100
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.161
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.290
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.591
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.591
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.618
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.618
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:52.619
+!MESSAGE Validated 2. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.015
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.075
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.139
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.200
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.279
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.340
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.435
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.712
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.714
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:53.774
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.256
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.257
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.304
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.304
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.305
+!MESSAGE Validated 2. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.696
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.697
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.698
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:54.759
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.061
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.122
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.605
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.605
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.644
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.644
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:55.644
+!MESSAGE Validated 2. Took 71 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:57.495
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:57.556
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.027
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.027
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.051
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.052
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.052
+!MESSAGE Validated 2. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.453
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.454
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.514
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.986
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:58.986
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:59.009
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:59.009
+!MESSAGE 1 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:42:59.010
+!MESSAGE Validated 2. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:00.339
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:00.400
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:00.707
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:00.708
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:00.768
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.156
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.170
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.338
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.399
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.504
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.566
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.905
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:01.936
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.001
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.001
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.027
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.027
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.028
+!MESSAGE Validated 2. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.054
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.055
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.116
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.275
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.276
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.336
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.440
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.441
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.503
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.619
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:02.681
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.133
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.374
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.434
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.549
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.610
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.727
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.788
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.925
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:03.987
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.068
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.079
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.469
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.499
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.555
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.555
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.580
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.580
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.581
+!MESSAGE Validated 2. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.858
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.860
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.871
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:04.999
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.000
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.060
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.083
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.145
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.161
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.172
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.562
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.576
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.590
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.590
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.607
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.607
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.608
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.899
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:05.961
+!MESSAGE Reconciled 1. Took 2 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.193
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.254
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.594
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.610
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.720
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.720
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.737
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.737
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:06.738
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.195
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.196
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.256
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.393
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.723
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.723
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.744
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.745
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:07.745
+!MESSAGE Validated 2. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:10.541
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:10.602
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:10.674
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:10.703
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.172
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.172
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.189
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.189
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.189
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:11.190
+!MESSAGE Validated 2. Took 37 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.156
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.217
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.680
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.680
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.698
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.698
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.698
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:13.699
+!MESSAGE Validated 2. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:14.857
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:14.858
+!MESSAGE >> document/signatureHelp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:14.917
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.382
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.382
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.409
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.410
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.410
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:15.410
+!MESSAGE Validated 2. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.120
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.181
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.596
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.596
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.614
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.615
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.615
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:46.615
+!MESSAGE Validated 2. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.019
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.080
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.113
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.174
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.514
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.604
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.654
+!MESSAGE begin problem for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.654
+!MESSAGE 1 problems reported for /Muzyk.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.681
+!MESSAGE begin problem for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.682
+!MESSAGE This method must return a result of type Spiewak is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.682
+!MESSAGE 2 problems reported for /Spiewak.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:47.682
+!MESSAGE Validated 2. Took 58 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:55.655
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2023-03-28 16:43:55.656
+!MESSAGE >> exit

@@ -16,19 +16,24 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>src/Test.java</name>
+			<name>src/Muzyk.java</name>
 			<type>1</type>
-			<location>c:/home/bunny/GitHub/GUI/02_Muzycy/src/Test.java</location>
+			<location>//home/bunny/GitHub/GUI/02_Muzycy/src/Muzyk.java</location>
+		</link>
+		<link>
+			<name>src/Spiewak.java</name>
+			<type>1</type>
+			<location>//home/bunny/GitHub/GUI/02_Muzycy/src/Spiewak.java</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
 		<filter>
-			<id>1679933072896</id>
+			<id>1680011334870</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
 				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>node_modules|\.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
+				<arguments>node_modules|.git|__CREATED_BY_JAVA_LANGUAGE_SERVER__</arguments>
 			</matcher>
 		</filter>
 	</filteredResources>

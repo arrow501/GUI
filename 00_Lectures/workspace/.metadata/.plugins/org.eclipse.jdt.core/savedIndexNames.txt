@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+/home/bunny/GitHub/GUI/00_Lectures/workspace/.metadata/.plugins/org.eclipse.jdt.core
+603180854.index
+988348023.index

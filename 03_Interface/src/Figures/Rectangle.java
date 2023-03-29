@@ -32,8 +32,8 @@ public class Rectangle extends Figure {
                 && y <= getPositionY()
                 && y >= getPositionY() - getHeight();
 
-        System.out.println(
-                "Punkt (" + x + "," + y + " ) znajduje się " + (isInside ? "wewnątrz " : "na zewnątrz ") + getName() + "\n");
+        System.out.println("Punkt (" + x + "," + y + " ) znajduje się " + (isInside ? "wewnątrz " : "na zewnątrz ")
+                + getName() + "\n");
     }
 
     @Override
