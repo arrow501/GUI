@@ -1,17 +1,20 @@
 package Figures;
 
+import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
+import java.nio.charset.StandardCharsets;
+
 public class TestFigur {
 
     public static void main(String[] args) {
+        System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out), true, StandardCharsets.UTF_8));
         zadanie("5"); // ==================================
 
         Figure fig[] = new Figure[2];
-        // położenie koła = srodek = (10,10), promień = 5
-        fig[0] = new Circle(10, 10, 5);
-
-        // położenie prostokąta = lewy górny wierzchołek = (20,20), szerokość = 15,
-        // wysokość = 10
-        fig[1] = new Rectangle(20, 20, 15, 10);
+        fig[0] = new Circle(10, 10, 5); // położenie koła = srodek = (10,10), promień = 5
+        fig[1] = new Rectangle(20, 20, 15, 10); // położenie prostokąta = lewy górny wierzchołek = (20,20), szerokość =
+                                                // 15, wysokość = 10
 
         // polimorficzne wywołanie metody toString() z klas Kolo/Prostokat,
         // a nie z klasy Figure
@@ -45,4 +48,5 @@ public class TestFigur {
     public static void zadanie(String numer) {
         System.out.println("\n== Zadanie " + numer + " ======================\n");
     }
+
 }
