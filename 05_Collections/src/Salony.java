@@ -41,7 +41,12 @@ public class Salony {
                 .map(list -> Collections.min(list))
                 .min((a, b) -> a.getPrice() - b.getPrice())
                 .get();
-
+        for (var salon : salony.keySet()) {
+            if (salony.get(salon).contains(cheapest)) {
+                System.out.println(
+                        "najtanszy samochod:" + cheapest.getBrand() + ", " + cheapest.getPrice() + ", " + salon);
+            }
+        }
         System.out.println("najtanszy samochod:" + cheapest.getBrand() + ", " + cheapest.getPrice());
     }
 }
