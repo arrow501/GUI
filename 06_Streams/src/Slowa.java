@@ -25,7 +25,6 @@ public class Slowa implements Iterable<Entry<String,Integer>>{
     }
     @Override
     public Iterator<Entry<String, Integer>> iterator() {
-        // TODO Auto-generated method stub
         return wordCount.entrySet().iterator();
     }
 }
