@@ -1,9 +1,6 @@
-import java.io.FileInputStream;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -32,24 +29,12 @@ public class Main {
             return name;
         }
 
-        public void setName(String name) {
-            this.name = name;
-        }
-
         public String getGroup() {
             return group;
         }
 
-        public void setGroup(String group) {
-            this.group = group;
-        }
-
         public int getScore() {
             return score;
-        }
-
-        public void setScore(int score) {
-            this.score = score;
         }
 
     }
