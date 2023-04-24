@@ -1,10 +1,14 @@
+import Cennik.Cennik;
+import Dane.Klient;
+import Dane.Koszyk;
+import Dane.ListaZyczen;
 import Gatunki.*;
 
 public class VODTest {
 
 	// cena programów danego typu z koszyka
 	static int cena(Koszyk k, String typ) {
-		/* <- tu trzeba wpisać ciało metody */
+
 	}
 
 	public static void main(String[] args) {

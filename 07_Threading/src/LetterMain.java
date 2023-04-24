@@ -1,4 +1,4 @@
-public class Main {
+public class LetterMain {
 
   public static void main(String[] args) throws InterruptedException {
     Letters letters = new Letters("ABCD");
