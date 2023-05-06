@@ -1,13 +1,16 @@
 import Cennik.Cennik;
-import Dane.Klient;
-import Dane.Koszyk;
-import Dane.ListaZyczen;
-import Gatunki.*;
+import Klient.*;
+import Programy.Gatunki.*;
 
 public class VODTest {
 
 	// cena programów danego typu z koszyka
 	static int cena(Koszyk k, String typ) {
+		return k.getLista()
+				.stream()
+				.filter(p -> p.getGenre().equals(typ))
+				.map(p -> p.getCena() * p.getDeviceCount())
+				.reduce(0, (p1, p2) -> p1 + p2);
 
 	}
 
@@ -22,13 +25,12 @@ public class VODTest {
 		// jeśli klient nie ma abonamentu: do 3 urządzeń za 12 zł/urządzenie,
 		// w przeciwnym przypadku (wpp.) 6 zł/urządzenie
 
-		cennik.dodaj("obyczaj", "Król Lear", 2, 10, 15); // niezależnie od tego, czy klient posiada abonament czy nie
+		cennik.dodaj("obyczaj", "Król Lear", 2, 15, 10); // niezależnie od tego, czy klient posiada abonament czy nie
 		// do 2 urządzeń za 15 zł/urządzenie, wpp. 10 zł/urządzenie
 
 		cennik.dodaj("komedia", "Królowa", 14, 7); // 7 zł/urządzenie jeśli klient ma abonament, wpp. 14 zł/urządzenie
 
 		cennik.dodaj("sensacja", "Król Artur"); // tylko dla abonamentów: darmowy dostęp
-
 		// Klient Kinoman deklaruje kwotę 70 zł na zamównienia; true oznacza, że klient
 		// posiada abonament w serwisie
 		Klient kinoman = new Klient("Kinoman", 70, true);

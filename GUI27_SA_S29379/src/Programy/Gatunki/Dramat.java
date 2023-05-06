@@ -1,6 +1,6 @@
-package Gatunki;
+package Programy.Gatunki;
 
-import Dane.Program;
+import Programy.Program;
 
 public class Dramat extends Program {
     public Dramat(String title, int deviceCount) {

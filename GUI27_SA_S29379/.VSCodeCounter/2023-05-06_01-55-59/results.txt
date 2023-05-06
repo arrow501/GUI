@@ -1,0 +1,64 @@
+Date : 2023-05-06 01:55:59
+Directory : c:\Users\alik5\workspace\GUI\GUI27_SA_S29379
+Total : 24 files,  650 codes, 57 comments, 135 blanks, all 842 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         23 |        640 |         57 |        126 |        823 |
+| Markdown |          1 |         10 |          0 |          9 |         19 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |         24 |        650 |         57 |        135 |        842 |
+| . (Files)                                                                        |          1 |         10 |          0 |          9 |         19 |
+| bin                                                                              |         11 |        268 |          0 |          1 |        269 |
+| bin (Files)                                                                      |          1 |         65 |          0 |          0 |         65 |
+| bin\Cennik                                                                       |          2 |         50 |          0 |          0 |         50 |
+| bin\Klient                                                                       |          3 |         88 |          0 |          1 |         89 |
+| bin\Programy                                                                     |          5 |         65 |          0 |          0 |         65 |
+| bin\Programy (Files)                                                             |          1 |         40 |          0 |          0 |         40 |
+| bin\Programy\Gatunki                                                             |          4 |         25 |          0 |          0 |         25 |
+| src                                                                              |         12 |        372 |         57 |        125 |        554 |
+| src (Files)                                                                      |          1 |         48 |         40 |         31 |        119 |
+| src\Cennik                                                                       |          2 |         82 |          0 |         23 |        105 |
+| src\Klient                                                                       |          3 |        144 |          0 |         36 |        180 |
+| src\Programy                                                                     |          6 |         98 |         17 |         35 |        150 |
+| src\Programy (Files)                                                             |          2 |         70 |         17 |         27 |        114 |
+| src\Programy\Gatunki                                                             |          4 |         28 |          0 |          8 |         36 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                         | language | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\README.md                           | Markdown |         10 |          0 |          9 |         19 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Cennik\Cennik.class             | Java     |         34 |          0 |          0 |         34 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Cennik\CennikItem.class         | Java     |         16 |          0 |          0 |         16 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Klient\Klient.class             | Java     |         48 |          0 |          0 |         48 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Klient\Koszyk.class             | Java     |         12 |          0 |          0 |         12 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Klient\ListaZyczen.class        | Java     |         28 |          0 |          1 |         29 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Programy\Gatunki\Dramat.class   | Java     |          6 |          0 |          0 |          6 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Programy\Gatunki\Komedia.class  | Java     |          6 |          0 |          0 |          6 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Programy\Gatunki\Obyczaj.class  | Java     |          6 |          0 |          0 |          6 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Programy\Gatunki\Sensacja.class | Java     |          7 |          0 |          0 |          7 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\Programy\Program.class          | Java     |         40 |          0 |          0 |         40 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\bin\VODTest.class                   | Java     |         65 |          0 |          0 |         65 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Cennik\Cennik.java              | Java     |         41 |          0 |         13 |         54 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Cennik\CennikItem.java          | Java     |         41 |          0 |         10 |         51 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Klient\Klient.java              | Java     |         92 |          0 |         22 |        114 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Klient\Koszyk.java              | Java     |         10 |          0 |          3 |         13 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Klient\ListaZyczen.java         | Java     |         42 |          0 |         11 |         53 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Gatunki\Dramat.java    | Java     |          7 |          0 |          2 |          9 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Gatunki\Komedia.java   | Java     |          7 |          0 |          2 |          9 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Gatunki\Obyczaj.java   | Java     |          7 |          0 |          2 |          9 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Gatunki\Sensacja.java  | Java     |          7 |          0 |          2 |          9 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Program.java           | Java     |         69 |          1 |         20 |         90 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\Programy\Programy.java          | Java     |          1 |         16 |          7 |         24 |
+| c:\Users\alik5\workspace\GUI\GUI27_SA_S29379\src\VODTest.java                    | Java     |         48 |         40 |         31 |        119 |
+| Total                                                                            |          |        650 |         57 |        135 |        842 |
++----------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
