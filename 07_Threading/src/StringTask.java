@@ -45,6 +45,7 @@ public class StringTask implements Runnable {
             repeatsDone = i;
 
             state = State.ABORTED;
+
         }
 
     }
@@ -81,12 +82,16 @@ public class StringTask implements Runnable {
     public void abort() throws InterruptedException {
         if (running != null) {
             running.interrupt();
-            running.join();
+            // System.out.println("aborted");
+            // running.join();
         }
     }
 
     public boolean isDone() {
         if (state == State.READY)
+            return true;
+
+        if (state == State.ABORTED)
             return true;
         return false;
 

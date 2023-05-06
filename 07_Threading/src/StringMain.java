@@ -6,11 +6,19 @@ public class StringMain {
     System.out.println("Task " + task.getState());
     task.start();
     if (args.length > 0 && args[0].equals("abort")) {
-      Thread.sleep(1000);
-      task.abort();
+      Thread thread = new Thread() {
+        @Override
+        public void run() {
+          try {
+            Thread.sleep(1000);
+            task.abort();
+          } catch (InterruptedException e) {
+          }
 
-      Thread running = new Thread(task);
-      running.start();
+        }
+
+      };
+      thread.start();
 
     }
     while (!task.isDone()) {
