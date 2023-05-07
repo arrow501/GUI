@@ -53,7 +53,6 @@ public class Cennik {
         if (cennik.containsKey(a.getGenre())) {
             cennik.get(a.getGenre()).add(a);
         } else {
-            System.out.println("dodano: " + a.getGenre());
             cennik.put(a.getGenre(), List.of(a));
         }
     }
