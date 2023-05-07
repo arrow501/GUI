@@ -5,8 +5,4 @@ public class Koszyk extends ListaZyczen {
     public Koszyk(Klient klient) {
         setOwner(klient);
     }
-
-    public void clear() {
-        getLista().clear();
-    }
 }

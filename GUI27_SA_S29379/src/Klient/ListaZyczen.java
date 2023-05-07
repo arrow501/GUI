@@ -11,10 +11,6 @@ public class ListaZyczen implements Iterable<Program> {
 
     private List<Program> lista; // A private field that stores the list of programs in the wish list
 
-    public ListaZyczen(List<Program> lista) {
-        this.lista = lista;
-    }
-
     public ListaZyczen() {
         lista = new ArrayList<>();
     }
