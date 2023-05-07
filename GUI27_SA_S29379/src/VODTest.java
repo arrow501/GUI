@@ -9,7 +9,7 @@ public class VODTest {
 		return k.getLista()
 				.stream()
 				.filter(p -> p.getGenre().equals(typ))
-				.map(p -> p.getCena() * p.getDeviceCount())
+				.map(p -> p.getDeviceCount() * p.getCena(k.getOwner().isAbonament()))
 				.reduce(0, (p1, p2) -> p1 + p2);
 
 	}

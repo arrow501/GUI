@@ -40,7 +40,7 @@ public class Klient {
         this.koszyk = koszykKinomana;
 
         for (Program p : lista) {
-            if (p.getCena() != null) {
+            if (p.getCena(abonament) != null) {
                 koszykKinomana.dodaj(p);
             }
         }
@@ -70,9 +70,19 @@ public class Klient {
         if (autoOdkladanie) {
             List<Program> paid = new ArrayList<>();
 
+            boolean abonament = koszyk.getOwner().isAbonament();
             for (Program p : koszyk) {
-                double cenaProgramu = p.getCena() * p.getDeviceCount() * (1 + prowizja);
+                double cenaProgramu = p.getCena(abonament) * p.getDeviceCount() * (1 + prowizja);
                 if (cena + cenaProgramu > funds) {
+                    int paidDeviceCount = p.getDeviceCount();
+
+                    while (cena + cenaProgramu > funds) {
+                        --paidDeviceCount;
+                        cenaProgramu = p.getCena(abonament, paidDeviceCount) * paidDeviceCount;
+                    }
+                    if(paidDeviceCount < 1) break;
+                    cena += cenaProgramu;
+                    p.setDeviceCount(p.getDeviceCount() - paidDeviceCount);
                     break;
                 }
                 cena += cenaProgramu;
@@ -80,13 +90,14 @@ public class Klient {
             }
             funds -= cena;
             for (Program p : paid) {
+                System.out.println("a" + p);
                 koszyk.remove(p);
             }
         } else {
             cena = koszyk
                     .getLista()
                     .stream()
-                    .map(p -> p.getCena() * p.getDeviceCount())
+                    .map(p -> p.getCena(abonament) * p.getDeviceCount())
                     .reduce(0, (a, b) -> a + b);
 
             cena *= 1 + prowizja;

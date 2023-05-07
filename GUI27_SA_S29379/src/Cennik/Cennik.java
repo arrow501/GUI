@@ -38,7 +38,7 @@ public class Cennik {
         dodaj(new CennikItem(title, genre, regularPrice, null, upToCountPrice, deviceCount));
     }
 
-    public void dodaj(String genre, String title, int abonamentPrice, int regularPrice) {
+    public void dodaj(String genre, String title, int regularPrice, int abonamentPrice) {
         dodaj(new CennikItem(title, genre, regularPrice, abonamentPrice, null, 0));
     }
 

@@ -7,14 +7,11 @@ public abstract class Program {
     private String title;
     private String genre;
     private int deviceCount;
-    private Integer cena; // ! Can be null
 
     public Program(String title, String genre, int deviceCount) {
         this.title = title;
         this.genre = genre;
         this.deviceCount = deviceCount;
-        this.cena = getCena(true);
-
     }
 
     // A method that returns the price of the program based on the genre, title and
@@ -26,7 +23,7 @@ public abstract class Program {
     // price
     // It returns the appropriate price based on the device count and whether it is
     // below or above a certain threshold
-    private Integer getCena(boolean abonament) {
+    public Integer getCena(boolean abonament, int deviceCount) {
 
         CennikItem x = Cennik.pobierzCennik()
                 .getGenreList(genre)
@@ -40,7 +37,7 @@ public abstract class Program {
 
         if (x.getRegularPrice() == null)
             return abonament
-                    ? 0     // abonament: true
+                    ? 0 // abonament: true
                     : null; // abonament: false
 
         if (x.getUpToCountPrice() == null)
@@ -48,7 +45,7 @@ public abstract class Program {
                     ? x.getAbonamentPrice()
                     : x.getRegularPrice();
 
-        if (this.deviceCount <= x.getDeviceCount()) {
+        if (deviceCount <= x.getDeviceCount()) {
             if (x.getAbonamentPrice() == null)
                 return x.getUpToCountPrice();
             else
@@ -59,13 +56,14 @@ public abstract class Program {
         return x.getRegularPrice();
     }
 
+    public Integer getCena(boolean abonament) {
+        return getCena(abonament, this.deviceCount);
+    }
+
     // A method that returns a string representation of the program with its fields
     @Override
     public String toString() {
-        return title + ", typ: " + genre + ", ile: " + deviceCount + " urządzeń, "
-                + (cena != null
-                        ? "cena:" + cena
-                        : "brak ceny");
+        return title + ", typ: " + genre + ", ile: " + deviceCount + " urządzeń";
     }
 
     // Getters and setters for the fields
@@ -92,9 +90,5 @@ public abstract class Program {
 
     public void setDeviceCount(int deviceCount) {
         this.deviceCount = deviceCount;
-    }
-
-    public Integer getCena() {
-        return cena;
     }
 }

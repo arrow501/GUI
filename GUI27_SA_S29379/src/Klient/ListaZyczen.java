@@ -35,7 +35,12 @@ public class ListaZyczen implements Iterable<Program> {
 
         StringBuilder sb = new StringBuilder(owner.getName() + ":");
         for (int i = 0; i < lista.size(); i++) {
-            sb.append("\n\t" + (i + 1) + ". " + lista.get(i));
+            Program p = lista.get(i);
+            Integer cena = p.getCena(owner.isAbonament());
+
+            sb.append("\n\t" + (i + 1) + ". " + p + ", " + (cena != null
+                    ? "cena:" + cena
+                    : "brak ceny"));
         }
         return sb.toString();
     }
