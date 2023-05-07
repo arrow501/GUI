@@ -4,6 +4,8 @@ package Cennik;
 public class CennikItem {
     private String title;
     private String genre;
+
+    //! Integers may be null and decide logic
     private Integer deviceCount;
     private Integer regularPrice;
     private Integer upToCountPrice;

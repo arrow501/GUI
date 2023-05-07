@@ -40,8 +40,8 @@ public abstract class Program {
 
         if (x.getRegularPrice() == null)
             return abonament
-                    ? 0
-                    : null;
+                    ? 0     // abonament: true
+                    : null; // abonament: false
 
         if (x.getUpToCountPrice() == null)
             return abonament

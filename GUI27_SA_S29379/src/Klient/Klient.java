@@ -39,12 +39,12 @@ public class Klient {
     public void przepakuj(Koszyk koszykKinomana) {
         this.koszyk = koszykKinomana;
 
-        for (Program p : lista.getLista()) {
+        for (Program p : lista) {
             if (p.getCena() != null) {
                 koszykKinomana.dodaj(p);
             }
         }
-        for (Program p : koszyk.getLista()) {
+        for (Program p : koszyk) {
             lista.remove(p);
         }
     }
@@ -70,12 +70,12 @@ public class Klient {
         if (autoOdkladanie) {
             List<Program> paid = new ArrayList<>();
 
-            for (Program p : koszyk.getLista()) {
-                double cenaProgram = p.getCena() * p.getDeviceCount() * (1 + prowizja);
-                if (cena + cenaProgram > funds) {
+            for (Program p : koszyk) {
+                double cenaProgramu = p.getCena() * p.getDeviceCount() * (1 + prowizja);
+                if (cena + cenaProgramu > funds) {
                     break;
                 }
-                cena += cenaProgram;
+                cena += cenaProgramu;
                 paid.add(p);
             }
             funds -= cena;
@@ -83,18 +83,20 @@ public class Klient {
                 koszyk.remove(p);
             }
         } else {
-            cena = koszyk.getLista()
+            cena = koszyk
+                    .getLista()
                     .stream()
                     .map(p -> p.getCena() * p.getDeviceCount())
                     .reduce(0, (a, b) -> a + b);
+
             cena *= 1 + prowizja;
 
             if (cena > funds) {
-                koszyk.getLista().clear();
-                lista.getLista().clear();
+                koszyk.clear();
+                lista.clear();
             } else {
                 funds -= cena;
-                koszyk.getLista().clear();
+                koszyk.clear();
             }
         }
 
