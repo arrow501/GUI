@@ -5,7 +5,7 @@ import Cennik.*;
 // An abstract class that represents a program with a title, genre, device count and price
 public abstract class Program {
     private String title;
-    private String genre;
+    private String genre; 
     private int deviceCount;
 
     public Program(String title, String genre, int deviceCount) {
