@@ -1,6 +1,6 @@
 import java.awt.Graphics;
 
-public class PenLine extends Shape {
+public class PenLine extends MyShape {
     int lastX;
     int lastY;
 

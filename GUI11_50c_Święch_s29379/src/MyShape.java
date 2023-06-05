@@ -1,9 +1,10 @@
 import java.awt.Color;
 import java.awt.Graphics2D;
+import java.awt.Shape;
 
 import javax.swing.JComponent;
 
-public abstract class Shape extends JComponent {
+public abstract class MyShape extends JComponent implements Shape{
     protected Color color;
     protected int x;
     protected int y;
@@ -13,7 +14,7 @@ public abstract class Shape extends JComponent {
     protected String type;
     static int ID = 0;
 
-    public Shape(String type, Color color, int x, int y, int size) {
+    public MyShape(String type, Color color, int x, int y, int size) {
         this.color = color;
         this.x = x;
         this.y = y;
@@ -21,10 +22,9 @@ public abstract class Shape extends JComponent {
 
         this.id = ID++;
     }
+    public abstract void draw(Graphics2D g);
 
-    // // In the Shape class, define an abstract draw method
-    // public abstract void draw(Graphics2D g);
-
+    
     public Color getCurrentColor() {
         return color;
     }

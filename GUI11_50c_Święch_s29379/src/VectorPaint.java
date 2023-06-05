@@ -163,13 +163,30 @@ public class VectorPaint extends JFrame {
                 if (mode.equals("Pen")) {
                     // Start the timer
                     timer.start();
+                } else {
+                    MyShape s;
+                    Point p = e.getPoint();
+                    if (mode.equals("Circle")) {
+                        s = new Circle(p.x, p.y, 50, currentColor);
+                    } else if (mode.equals("Square")) {
+                        s = new Square(p.x, p.y, 50, currentColor);
+                    } else {
+                        return;
+                    }
+                    // Add the shape to the draw panel
+                    drawPanel.add(s);
+                    // Repaint the draw panel
                 }
+                drawPanel.revalidate();
+                drawPanel.repaint();
+                // Set the status variable
+                status = "Modified";
+                // Update the status label
+                statusLabel.setText("Status: " + status);
             }
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                System.out.println("AAAA");
-
                 try {
                     Thread.sleep(50);
                 } catch (InterruptedException e1) {
@@ -179,33 +196,6 @@ public class VectorPaint extends JFrame {
                     // Stop the timer
                     timer.stop();
                 }
-            }
-
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                // Get the mouse position relative to the draw panel
-                Point p = e.getPoint();
-                // Get the current mode and color
-                String mode = modeLabel.getText().substring(6);
-                Color color = currentColor;
-                // Create a new shape object based on the mode
-                Shape s;
-                if (mode.equals("Circle")) {
-                    s = new Circle(p.x, p.y, 50, color);
-                } else if (mode.equals("Square")) {
-                    s = new Square(p.x, p.y, 50, color);
-                } else {
-                    return;
-                }
-                // Add the shape to the draw panel
-                drawPanel.add(s);
-                // Repaint the draw panel
-                drawPanel.revalidate();
-                drawPanel.repaint();
-                // Set the status variable
-                status = "Modified";
-                // Update the status label
-                statusLabel.setText("Status: " + status);
             }
         });
 
@@ -248,7 +238,7 @@ public class VectorPaint extends JFrame {
                             int size = Integer.parseInt(tokens[4]);
 
                             // Create a new shape object based on the shape type
-                            Shape s;
+                            MyShape s;
                             if (shape.equals("Circle")) {
                                 s = new Circle(x, y, size, color);
                             } else if (shape.equals("Square")) {
@@ -287,8 +277,8 @@ public class VectorPaint extends JFrame {
                         Component[] components = drawPanel.getComponents();
                         // Loop through each component and write its information to the file
                         for (Component c : components) {
-                            if (c instanceof Shape) {
-                                Shape s = (Shape) c;
+                            if (c instanceof MyShape) {
+                                MyShape s = (MyShape) c;
                                 bw.write(s.toString());
                                 bw.newLine();
                             }
@@ -333,8 +323,8 @@ public class VectorPaint extends JFrame {
                         Component[] components = drawPanel.getComponents();
                         // Loop through each component and write its information to the file
                         for (Component c : components) {
-                            if (c instanceof Shape) {
-                                Shape s = (Shape) c;
+                            if (c instanceof MyShape) {
+                                MyShape s = (MyShape) c;
                                 bw.write(s.toString());
                                 bw.newLine();
                             }
