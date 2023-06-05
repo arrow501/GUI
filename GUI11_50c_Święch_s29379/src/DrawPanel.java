@@ -8,10 +8,14 @@ public class DrawPanel extends JPanel {
     public boolean deleteMode = false;
     List<MyShape> shapes = new ArrayList<>();
     List<MyShape> toBeRemoved = new ArrayList<>();
-
+    
     public Component add(MyShape shape) {
         shapes.add(0, shape);
         return super.add(shape, 0);
+    }
+    public void addLast(MyShape shape) {
+        shapes.add( shape);
+        super.add(shape);
     }
 
     public List<MyShape> getShapes() {
@@ -38,4 +42,5 @@ public class DrawPanel extends JPanel {
     public boolean isDeleteMode() {
         return deleteMode;
     }
+
 }

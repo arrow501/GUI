@@ -7,7 +7,9 @@ import java.io.*;
 
 // Define the main class that extends JFrame
 public class VectorPaint extends JFrame {
-
+    static final int CIRCLE_SIZE = 50;
+    static final int SQUARE_SIZE = 75;
+    static final int PEN_SIZE = 10;
     // Declare the components as instance variables
     private JMenu fileMenu;
     private JMenu drawMenu;
@@ -213,9 +215,9 @@ public class VectorPaint extends JFrame {
                     Point p = e.getPoint();
                     MyShape s;
                     if (mode.equals("Circle")) {
-                        s = new Circle(p.x, p.y, 50, currentColor);
+                        s = new Circle(p.x - CIRCLE_SIZE, p.y - CIRCLE_SIZE, CIRCLE_SIZE, currentColor);
                     } else if (mode.equals("Square")) {
-                        s = new Square(p.x, p.y, 50, currentColor);
+                        s = new Square(p.x - SQUARE_SIZE, p.y - SQUARE_SIZE, SQUARE_SIZE, currentColor);
                     } else {
                         return;
                     }
@@ -293,7 +295,7 @@ public class VectorPaint extends JFrame {
                                 continue;
                             }
                             // Add the shape to the draw panel
-                            drawPanel.add(s);
+                            drawPanel.addLast(s);
                         }
                         // Repaint the draw panel
                         drawPanel.revalidate();

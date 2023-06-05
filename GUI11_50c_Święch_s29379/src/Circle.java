@@ -4,7 +4,7 @@ import java.awt.Point;
 
 public class Circle extends MyShape {
     public Circle(int x, int y, int size, Color color) {
-        super("Circle", color, x - size, y - size, size); // Subtract half of the size from x and y
+        super("Circle", color, x, y , size); // Subtract half of the size from x and y
         // Set the bounds of the panel to fit the circle
         setBounds(x - size, y - size, 2 * size, 2 * size);
     }
