@@ -1,22 +1,33 @@
 import java.awt.Component;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.util.ArrayList;
 import java.util.List;
 
 import javax.swing.JPanel;
 
 public class DrawPanel extends JPanel {
-    List<Shape> lines = new ArrayList<>();
+    public boolean deleteMode = false;
+    List<MyShape> shapes = new ArrayList<>();
 
-
- public Component add(Shape shape) {
-    if(shape.getType().equals("Pen")){
-        Pen pen = (Pen) shape;
-        lines.add(new PenLine(pen));
-
-    }
+ public Component add(MyShape shape) {
+    shapes.add(shape);
      return super.add(shape);
  }
+
+public List<MyShape> getShapes() {
+    return shapes;
+}
+
+public void setDeleteMode(boolean b) {
+    deleteMode = b;
+    System.out.println("DeleteMode: " + deleteMode);
+}
+
+public boolean isDeleteMode() {
+    return deleteMode;
+}
+
+
+
+
 
 }

@@ -25,15 +25,16 @@ public class VectorPaint extends JFrame {
     private JToolBar toolBar;
     private JLabel modeLabel;
     private JLabel statusLabel;
-    private JPanel drawPanel;
+    private DrawPanel drawPanel;
 
     // Declare other variables such as file name, current mode, etc.
     private String fileName;
     private String mode;
+    private String lastMode;
     private String status;
-    private Color currentColor;
+    private Color currentColor = Color.BLACK;
     // Declare a Timer object as a field
-    Timer timer;
+    Timer drawLine;
 
     // Define the constructor
     public VectorPaint() {
@@ -107,6 +108,7 @@ public class VectorPaint extends JFrame {
         // Set the layout and background color of the draw panel
         drawPanel.setLayout(null);
         drawPanel.setBackground(Color.WHITE);
+        drawPanel.setFocusable(true);
 
         // Set the title, size, location, default close operation and layout of the
         // frame
@@ -133,7 +135,7 @@ public class VectorPaint extends JFrame {
 
         // In the constructor, initialize the timer with a 100ms delay and an action
         // listener
-        timer = new Timer(5, new ActionListener() {
+        drawLine = new Timer(5, new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 // Get the current mouse position relative to the draw panel
@@ -142,7 +144,7 @@ public class VectorPaint extends JFrame {
                 // Get the current color
                 Color color = currentColor;
                 // Create a new Pen object with the mouse position and color
-                Pen pen = new Pen(p.x, p.y, 10, color);
+                Pen pen = new Pen(p.x, p.y, 10, color, null);
                 // Add the pen to the draw panel
                 drawPanel.add(pen);
                 // Repaint the draw panel
@@ -154,16 +156,77 @@ public class VectorPaint extends JFrame {
                 statusLabel.setText("Status: " + status);
             }
         });
+        drawPanel.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyChar() == 'd') {
+                    System.out.println("D");
+
+                    if (mode.equals("Delete")) {
+                        mode = lastMode;
+                        modeLabel.setText("Mode: " + mode);
+                        System.out.println(mode);
+
+                    } else {
+
+                        lastMode = mode;
+                        mode = "Delete";
+                        modeLabel.setText("Mode: " + mode);
+                        System.out.println(mode);
+
+                    }
+                }
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+
+            }
+        });
         // Add a mouse listener to the draw panel
         drawPanel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                drawPanel.requestFocusInWindow();
+                System.out.println("focused");
+            }
+
             @Override
             public void mousePressed(MouseEvent e) {
                 // Check if the mode is Pen
                 String mode = modeLabel.getText().substring(6);
-                if (mode.equals("Pen")) {
-                    // Start the timer
-                    timer.start();
+                if (mode.equals("Delete")) {
+                    for (MyShape shape : drawPanel.getShapes()) {
+                        if (shape.contains(e.getPoint())) {
+                            drawPanel.remove(shape);
+                            drawPanel.repaint();
+                            if (shape.getType().equals("Pen"))
+                                continue;
+                            else
+                                break;
+                        }
+                    }
+                    return;
+                } else if (mode.equals("Pen")) {
+                    drawLine.start();
+                } else {
+                    Point p = e.getPoint();
+                    MyShape s;
+                    if (mode.equals("Circle")) {
+                        s = new Circle(p.x, p.y, 50, currentColor);
+                    } else if (mode.equals("Square")) {
+                        s = new Square(p.x, p.y, 50, currentColor);
+                    } else {
+                        return;
+                    }
+                    drawPanel.add(s);
                 }
+                drawPanel.revalidate();
+                drawPanel.repaint();
+                // Set the status variable
+                status = "Modified";
+                // Update the status label
+                statusLabel.setText("Status: " + status);
             }
 
             @Override
@@ -175,37 +238,10 @@ public class VectorPaint extends JFrame {
                 } catch (InterruptedException e1) {
                 }
                 // Check if the timer is running
-                if (timer.isRunning()) {
+                if (drawLine.isRunning()) {
                     // Stop the timer
-                    timer.stop();
+                    drawLine.stop();
                 }
-            }
-
-            @Override
-            public void mouseClicked(MouseEvent e) {
-                // Get the mouse position relative to the draw panel
-                Point p = e.getPoint();
-                // Get the current mode and color
-                String mode = modeLabel.getText().substring(6);
-                Color color = currentColor;
-                // Create a new shape object based on the mode
-                Shape s;
-                if (mode.equals("Circle")) {
-                    s = new Circle(p.x, p.y, 50, color);
-                } else if (mode.equals("Square")) {
-                    s = new Square(p.x, p.y, 50, color);
-                } else {
-                    return;
-                }
-                // Add the shape to the draw panel
-                drawPanel.add(s);
-                // Repaint the draw panel
-                drawPanel.revalidate();
-                drawPanel.repaint();
-                // Set the status variable
-                status = "Modified";
-                // Update the status label
-                statusLabel.setText("Status: " + status);
             }
         });
 
@@ -239,25 +275,28 @@ public class VectorPaint extends JFrame {
                         String line;
                         while ((line = br.readLine()) != null) {
                             // Split the line by commas
-                            String[] tokens = line.split(",");
+                            String[] tokens = line.split(" ");
                             // Get the shape, color and coordinates from the tokens
-                            String shape = tokens[0];
-                            Color color = new Color(Integer.parseInt(tokens[1]));
-                            int x = Integer.parseInt(tokens[2]);
-                            int y = Integer.parseInt(tokens[3]);
-                            int size = Integer.parseInt(tokens[4]);
-
+                            int id = Integer.parseInt(tokens[0]);
+                            String type = tokens[1];
+                            Color color = new Color(Integer.parseInt(tokens[2]), false);
+                            int x = Integer.parseInt(tokens[3]);
+                            int y = Integer.parseInt(tokens[4]);
+                            int size = Integer.parseInt(tokens[5]);
                             // Create a new shape object based on the shape type
-                            Shape s;
-                            if (shape.equals("Circle")) {
+                            MyShape s;
+                            if (type.equals("Circle")) {
                                 s = new Circle(x, y, size, color);
-                            } else if (shape.equals("Square")) {
+                            } else if (type.equals("Square")) {
                                 s = new Square(x, y, size, color);
+                            } else if (type.equals("Pen")) {
+                                s = new Pen(x, y, size, color, null);
                             } else {
-                                s = new Pen(x, y, size, color);
+                                System.out.println(id + " " + type);
+                                continue;
                             }
                             // Add the shape to the draw panel
-                            drawPanel.add((Component) s);
+                            drawPanel.add(s);
                         }
                         // Repaint the draw panel
                         drawPanel.revalidate();
@@ -287,8 +326,8 @@ public class VectorPaint extends JFrame {
                         Component[] components = drawPanel.getComponents();
                         // Loop through each component and write its information to the file
                         for (Component c : components) {
-                            if (c instanceof Shape) {
-                                Shape s = (Shape) c;
+                            if (c instanceof MyShape) {
+                                MyShape s = (MyShape) c;
                                 bw.write(s.toString());
                                 bw.newLine();
                             }
@@ -333,8 +372,8 @@ public class VectorPaint extends JFrame {
                         Component[] components = drawPanel.getComponents();
                         // Loop through each component and write its information to the file
                         for (Component c : components) {
-                            if (c instanceof Shape) {
-                                Shape s = (Shape) c;
+                            if (c instanceof MyShape) {
+                                MyShape s = (MyShape) c;
                                 bw.write(s.toString());
                                 bw.newLine();
                             }

@@ -1,14 +1,18 @@
 import java.awt.Color;
 import java.awt.Graphics;
+import java.awt.Point;
 
-public class Square extends Shape {
+public class Square extends MyShape {
 
-
-    // Define the constructor with parameters
     public Square(int x, int y, int side, Color color) {
-        super("Square", color, x, y, side); // Call the superclass constructor
+        super("Square", color, x - side / 2, y - side / 2, side); // Subtract half of the side from x and y
         // Set the bounds of the panel to fit the square
-        setBounds(x, y, side, side);
+        setBounds(x - side / 2, y - side / 2, side, side);
+    }
+
+    @Override
+    public boolean contains(Point p) {
+        return p.x >= x && p.x <= x + size && p.y >= y && p.y <= y + size;
     }
 
     // Override the paintComponent method to draw the square

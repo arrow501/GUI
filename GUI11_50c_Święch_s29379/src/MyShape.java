@@ -1,19 +1,19 @@
 import java.awt.Color;
-import java.awt.Graphics2D;
+import java.awt.Point;
 
 import javax.swing.JComponent;
 
-public abstract class Shape extends JComponent {
+public abstract class MyShape extends JComponent {
     protected Color color;
     protected int x;
     protected int y;
     protected int size;
 
     protected int id;
-    protected String type;
+    protected String type = "Pen";
     static int ID = 0;
 
-    public Shape(String type, Color color, int x, int y, int size) {
+    public MyShape(String type, Color color, int x, int y, int size) {
         this.color = color;
         this.x = x;
         this.y = y;
@@ -21,12 +21,15 @@ public abstract class Shape extends JComponent {
 
         this.id = ID++;
     }
-
-    // // In the Shape class, define an abstract draw method
-    // public abstract void draw(Graphics2D g);
-
+    public abstract boolean contains(Point p);
+    
     public Color getCurrentColor() {
         return color;
+    }
+
+    @Override
+    public String toString() {
+        return "" + id + " " + type + " " + color.getRGB() + " " + x + " " + y + " " + size;
     }
 
     @Override
