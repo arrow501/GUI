@@ -6,7 +6,7 @@ public class Square extends Shape {
 
     // Define the constructor with parameters
     public Square(int x, int y, int side, Color color) {
-        super(color, x, y, side); // Call the superclass constructor
+        super("Square", color, x, y, side); // Call the superclass constructor
         // Set the bounds of the panel to fit the square
         setBounds(x, y, side, side);
     }

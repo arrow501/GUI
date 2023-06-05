@@ -7,7 +7,7 @@ public class Circle extends Shape {
 
     // Define the constructor with parameters
     public Circle(int x, int y, int size, Color color) {
-        super(color, x, y, size);
+        super("Circle", color, x, y, size);
         // Initialize the instance variables
 
         // Set the bounds of the panel to fit the circle
