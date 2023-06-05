@@ -7,27 +7,35 @@ import javax.swing.JPanel;
 public class DrawPanel extends JPanel {
     public boolean deleteMode = false;
     List<MyShape> shapes = new ArrayList<>();
+    List<MyShape> toBeRemoved = new ArrayList<>();
 
- public Component add(MyShape shape) {
-    shapes.add(shape);
-     return super.add(shape);
- }
+    public Component add(MyShape shape) {
+        shapes.add(0, shape);
+        return super.add(shape, 0);
+    }
 
-public List<MyShape> getShapes() {
-    return shapes;
-}
+    public List<MyShape> getShapes() {
+        return shapes;
+    }
 
-public void setDeleteMode(boolean b) {
-    deleteMode = b;
-    System.out.println("DeleteMode: " + deleteMode);
-}
+    @Override
+    public void remove(java.awt.Component comp) {
+        super.remove(comp);
 
-public boolean isDeleteMode() {
-    return deleteMode;
-}
+        toBeRemoved.add((MyShape) comp);
+    }
 
+    public void clearRemoved() {
+        for (MyShape s : toBeRemoved) {
+            shapes.remove(s);
+        }
+    }
 
+    public void setDeleteMode(boolean b) {
+        deleteMode = b;
+    }
 
-
-
+    public boolean isDeleteMode() {
+        return deleteMode;
+    }
 }

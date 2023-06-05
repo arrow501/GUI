@@ -33,7 +33,7 @@ public class VectorPaint extends JFrame {
     private String mode;
     private String lastMode;
     private String status;
-    private Color currentColor;
+    private Color currentColor = Color.BLACK;
     // Declare a Timer object as a field
     Timer drawLine;
 
@@ -145,10 +145,8 @@ public class VectorPaint extends JFrame {
                 // Get the current mouse position relative to the draw panel
                 Point p = MouseInfo.getPointerInfo().getLocation();
                 SwingUtilities.convertPointFromScreen(p, drawPanel);
-                // Get the current color
-                Color color = currentColor;
                 // Create a new Pen object with the mouse position and color
-                Pen pen = new Pen(p.x, p.y, 10, color, null);
+                Pen pen = new Pen(p.x, p.y, 10, currentColor);
                 // Add the pen to the draw panel
                 drawPanel.add(pen);
                 // Repaint the draw panel
@@ -164,20 +162,13 @@ public class VectorPaint extends JFrame {
             @Override
             public void keyPressed(KeyEvent e) {
                 if (e.getKeyChar() == 'd') {
-                    System.out.println("D");
-
                     if (mode.equals("Delete")) {
                         mode = lastMode;
                         modeLabel.setText("Mode: " + mode);
-                        System.out.println(mode);
-
                     } else {
-
                         lastMode = mode;
                         mode = "Delete";
                         modeLabel.setText("Mode: " + mode);
-                        System.out.println(mode);
-
                     }
                 }
             }
@@ -192,7 +183,6 @@ public class VectorPaint extends JFrame {
             @Override
             public void mouseClicked(MouseEvent e) {
                 drawPanel.requestFocusInWindow();
-                System.out.println("focused");
             }
 
             @Override
@@ -200,16 +190,22 @@ public class VectorPaint extends JFrame {
                 // Check if the mode is Pen
                 String mode = modeLabel.getText().substring(6);
                 if (mode.equals("Delete")) {
+                    boolean removePenMode = false;
+
                     for (MyShape shape : drawPanel.getShapes()) {
                         if (shape.contains(e.getPoint())) {
+                            if(removePenMode && !shape.getType().equals("Pen"))
+                                break;
                             drawPanel.remove(shape);
                             drawPanel.repaint();
                             if (shape.getType().equals("Pen"))
-                                continue;
-                            else
+                                removePenMode = true;
+                            else {
                                 break;
+                            }
                         }
                     }
+                    drawPanel.clearRemoved();
                     return;
                 } else if (mode.equals("Pen")) {
                     drawLine.start();
@@ -217,9 +213,9 @@ public class VectorPaint extends JFrame {
                     Point p = e.getPoint();
                     MyShape s;
                     if (mode.equals("Circle")) {
-                        s = new Circle(p.x, p.y, 50, null);
+                        s = new Circle(p.x, p.y, 50, currentColor);
                     } else if (mode.equals("Square")) {
-                        s = new Square(p.x, p.y, 50, null);
+                        s = new Square(p.x, p.y, 50, currentColor);
                     } else {
                         return;
                     }
@@ -235,11 +231,10 @@ public class VectorPaint extends JFrame {
 
             @Override
             public void mouseReleased(MouseEvent e) {
-                System.out.println("AAAA");
-
                 try {
                     Thread.sleep(50);
                 } catch (InterruptedException e1) {
+                    return;
                 }
                 // Check if the timer is running
                 if (drawLine.isRunning()) {
@@ -281,7 +276,6 @@ public class VectorPaint extends JFrame {
                             // Split the line by commas
                             String[] tokens = line.split(" ");
                             // Get the shape, color and coordinates from the tokens
-                            int id = Integer.parseInt(tokens[0]);
                             String type = tokens[1];
                             Color color = new Color(Integer.parseInt(tokens[2]), false);
                             int x = Integer.parseInt(tokens[3]);
@@ -294,9 +288,8 @@ public class VectorPaint extends JFrame {
                             } else if (type.equals("Square")) {
                                 s = new Square(x, y, size, color);
                             } else if (type.equals("Pen")) {
-                                s = new Pen(x, y, size, color, null);
+                                s = new Pen(x, y, size, color);
                             } else {
-                                System.out.println(id + " " + type);
                                 continue;
                             }
                             // Add the shape to the draw panel
@@ -316,7 +309,6 @@ public class VectorPaint extends JFrame {
         saveItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the save action
                 // If there is no file name, invoke the save as action
                 if (fileName == null) {
                     saveAsItem.doClick();
@@ -351,7 +343,6 @@ public class VectorPaint extends JFrame {
         saveAsItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the save as action
                 // Create a file chooser dialog
                 JFileChooser fileChooser = new JFileChooser();
                 // Set the current directory to the user's home directory
@@ -393,7 +384,6 @@ public class VectorPaint extends JFrame {
         quitItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the quit action
                 // If the status is not saved, ask the user if they want to save before quitting
                 if (!status.equals("Saved")) {
                     int option = JOptionPane.showConfirmDialog(VectorPaint.this, "Do you want to save before quitting?",
@@ -424,7 +414,6 @@ public class VectorPaint extends JFrame {
         circleItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the circle action
                 // Set the mode variable
                 mode = "Circle";
                 // Update the mode label
@@ -435,7 +424,6 @@ public class VectorPaint extends JFrame {
         squareItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the square action
                 // Set the mode variable
                 mode = "Square";
                 // Update the mode label
@@ -446,7 +434,6 @@ public class VectorPaint extends JFrame {
         penItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the pen action
                 // Set the mode variable
                 mode = "Pen";
                 // Update the mode label
@@ -457,7 +444,6 @@ public class VectorPaint extends JFrame {
         colorItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the color action
                 // Create a color chooser dialog and get the user's selection
                 Color color = JColorChooser.showDialog(VectorPaint.this, "Choose a color", Color.BLACK);
                 // If the user did not cancel, set the current color to the selected color
@@ -470,7 +456,6 @@ public class VectorPaint extends JFrame {
         clearItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                // TODO: implement the clear action
                 // Remove all components from the draw panel and repaint it
                 drawPanel.removeAll();
                 drawPanel.repaint();
