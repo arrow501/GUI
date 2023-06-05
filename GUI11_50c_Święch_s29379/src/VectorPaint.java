@@ -23,6 +23,7 @@ public class VectorPaint extends JFrame {
     private JMenuItem clearItem;
     private JMenuBar menuBar;
     private JToolBar toolBar;
+    private JToggleButton randomColors;
     private JLabel modeLabel;
     private JLabel statusLabel;
     private DrawPanel drawPanel;
@@ -32,7 +33,7 @@ public class VectorPaint extends JFrame {
     private String mode;
     private String lastMode;
     private String status;
-    private Color currentColor = Color.BLACK;
+    private Color currentColor;
     // Declare a Timer object as a field
     Timer drawLine;
 
@@ -53,6 +54,7 @@ public class VectorPaint extends JFrame {
         clearItem = new JMenuItem("Clear");
         menuBar = new JMenuBar();
         toolBar = new JToolBar();
+        randomColors = new JToggleButton("Random colors");
         modeLabel = new JLabel("Mode: Pen");
         statusLabel = new JLabel("Status: New");
         drawPanel = new DrawPanel();
@@ -104,6 +106,8 @@ public class VectorPaint extends JFrame {
         toolBar.add(modeLabel);
         toolBar.addSeparator();
         toolBar.add(statusLabel);
+        toolBar.addSeparator();
+        toolBar.add(randomColors);
 
         // Set the layout and background color of the draw panel
         drawPanel.setLayout(null);
@@ -213,9 +217,9 @@ public class VectorPaint extends JFrame {
                     Point p = e.getPoint();
                     MyShape s;
                     if (mode.equals("Circle")) {
-                        s = new Circle(p.x, p.y, 50, currentColor);
+                        s = new Circle(p.x, p.y, 50, null);
                     } else if (mode.equals("Square")) {
-                        s = new Square(p.x, p.y, 50, currentColor);
+                        s = new Square(p.x, p.y, 50, null);
                     } else {
                         return;
                     }
@@ -410,7 +414,13 @@ public class VectorPaint extends JFrame {
                 }
             }
         });
-
+        randomColors.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                boolean state = randomColors.isSelected();
+                MyShape.randomColor = state;
+            }
+        });
         circleItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

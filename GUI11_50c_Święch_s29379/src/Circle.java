@@ -9,7 +9,8 @@ public class Circle extends MyShape {
     public Circle(int x, int y, int size, Color color) {
         super("Circle", color, x - size, y - size, size); // Subtract half of the size from x and y
         // Initialize the instance variables
-
+        super.color = getRandomColor();
+        System.out.println(super.color);
         // Set the bounds of the panel to fit the circle
         setBounds(x - size, y - size, 2 * size, 2 * size);
     }
