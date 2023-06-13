@@ -217,7 +217,7 @@ public class VectorPaint extends JFrame {
                     if (mode.equals("Circle")) {
                         s = new Circle(p.x - CIRCLE_SIZE, p.y - CIRCLE_SIZE, CIRCLE_SIZE, currentColor);
                     } else if (mode.equals("Square")) {
-                        s = new Square(p.x - SQUARE_SIZE, p.y - SQUARE_SIZE, SQUARE_SIZE, currentColor);
+                        s = new Square(p.x, p.y, SQUARE_SIZE, currentColor);
                     } else {
                         return;
                     }
